@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿//  68 Написать программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n
 Console.Write("Введите число M: ");
 int m = Convert.ToInt32(Console.ReadLine());
 
@@ -8,13 +8,13 @@ int n = Convert.ToInt32(Console.ReadLine());
 AkkermanFunction(m,n);
 
 
-// вызов функции Аккермана
+
 void AkkermanFunction(int m, int n)
 {
     Console.Write(Akkerman(m, n)); 
 }
 
-// функция Аккермана
+
 int Akkerman(int m, int n)
 {
     if (m == 0)
